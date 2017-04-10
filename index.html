@@ -6,5 +6,19 @@
  </head>
  <body>
 <h1>ТЕСТ-ХУЕСТ</h1>
+  <button id="growing">Кликни меня</button>
+
+<style>
+#growing {
+  transition: font-size 3s, color 2s;
+}
+</style>
+
+<script>
+growing.onclick = function() {
+  this.style.fontSize='36px';
+  this.style.color='red';
+}
+</script>
  </body>
 </html>
